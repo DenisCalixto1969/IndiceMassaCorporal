@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+h1, h2 {
+    color: #d4d4d2;
+}
+
+input {
+    height: 1.5em;
+}   
+
+.input_area {
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;  
+}
+h1 {
+    margin-block-start: 0em;
+}
+.area {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    background-color: #1c1c1c;
+    display: inline-flex;
+    padding: 1.5em;
+    border-radius: 2em;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+button {
+    height: 3em;
+    width: 100%;
+    background-color: #ff9500;
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
+
+button:Hover {
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 8px;
+    margin: 1em;
+}
+.result{
+    color:black;
+    font-size: 1.2em;
+  
+  
+}
