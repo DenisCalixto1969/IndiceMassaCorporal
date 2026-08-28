@@ -11,17 +11,17 @@ function Calcular() {
 
     if (imc < 18.5) {
     result = "Atenção! Você está abaixo do peso.";
-} else if (imc < 25) {
+        } else if (imc < 25) {
     result = "Parabéns! Você está com o peso ideal.";
-} else if (imc < 30) {
+        } else if (imc < 30) {
     result = "Você está com sobrepeso.";
-} else if (imc < 35) {
+        } else if (imc < 35) {
     result = "Atenção! Obesidade grau I.";
-} else if (imc < 40) {
+        } else if (imc < 40) {
     result = "Atenção! Obesidade grau II.";
-} else {
+        } else {
     result = "Cuidado! Obesidade grau III.";
-}
+        }
 
     document.getElementById("resultado").value =
     "Seu IMC é: " + imc.toFixed(2).replace(".", ",") +

@@ -1,26 +1,10 @@
 @charset "UTF-8";
 
-h1, h2 {
-    color: #d4d4d2;
-}
-
-input {
-    height: 1.5em;
-}   
-
-.input_area {
-    width: 100%;
-    display: flex;
-    align-items: center; 
-    justify-content: space-between;  
-}
-h1 {
-    margin-block-start: 0em;
-}
 .area {
     display: flex;
     justify-content: center;
 }
+
 .container {
     background-color: #1c1c1c;
     display: inline-flex;
@@ -28,16 +12,37 @@ h1 {
     border-radius: 2em;
     flex-direction: column;
     align-items: center;
-
 }
 
+h1 {
+    margin-block-start: 0em;
+}
+
+h1, h2 {
+    color: #d4d4d2;
+}
+
+.input_area {
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;  
+}
+
+input {
+    height: 1.5em;
+    border-radius: 8px;
+    text-align: center;
+}   
+
 button {
-    height: 3em;
+    height: 2em;
     width: 100%;
     background-color: #ff9500;
     border: none;
     color: white;
     border-radius: 8px;
+    font-size: 1.4rem;
 }
 
 button:Hover {
@@ -52,6 +57,13 @@ textarea {
 .result{
     color:rgb(44, 30, 175);
     font-size: 1.2em;
-  
-  
+
 }
+#dac {
+    font-size: 1.1em;
+    text-align: center;
+    background-color: #ff9500;
+    color: white;
+    
+}
+
