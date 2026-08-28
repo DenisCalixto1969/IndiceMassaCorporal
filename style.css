@@ -30,6 +30,7 @@ h1, h2 {
 }
 
 input {
+    color: rgb(44, 30, 175);
     height: 1.5em;
     border-radius: 8px;
     text-align: center;
@@ -38,7 +39,7 @@ input {
 button {
     height: 2em;
     width: 100%;
-    background-color: #ff9500;
+    background-color: #1ad4b5;
     border: none;
     color: white;
     border-radius: 8px;
@@ -62,7 +63,7 @@ textarea {
 #dac {
     font-size: 1.1em;
     text-align: center;
-    background-color: #ff9500;
+    background-color: #1ad4b5;
     color: white;
     
 }
@@ -113,6 +114,7 @@ textarea {
     width: 100%;
     min-height: 160px;
     height: 160px;
+
     box-sizing: border-box;
 }
 }
