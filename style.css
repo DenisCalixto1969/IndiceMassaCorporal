@@ -67,3 +67,39 @@ textarea {
     
 }
 
+@media (max-width: 600px) {
+    .area {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+        padding: 18px;
+        box-sizing: border-box;
+    }
+
+    .input_area {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .input_area input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    #resultado {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
