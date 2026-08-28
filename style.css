@@ -68,6 +68,7 @@ textarea {
 }
 
 @media (max-width: 600px) {
+
     .area {
         width: 100%;
         padding: 10px;
@@ -82,15 +83,25 @@ textarea {
         box-sizing: border-box;
     }
 
+    .container h1 {
+        white-space: nowrap;
+        font-size: 22px;
+    }
+
     .input_area {
         display: flex;
-        flex-direction: column;
+        align-items: center;
         gap: 6px;
     }
 
+    .input_area h2 {
+        white-space: nowrap;
+        font-size: 18px;
+    }
+
     .input_area input {
-        width: 100%;
-        box-sizing: border-box;
+        flex: 1;
+        min-width: 0;
     }
 
     button {
@@ -102,4 +113,3 @@ textarea {
         box-sizing: border-box;
     }
 }
-
