@@ -95,9 +95,10 @@ textarea {
     }
 
     .input_area h2 {
-        white-space: nowrap;
-        font-size: 18px;
-    }
+    width: 85px;
+    white-space: nowrap;
+    font-size: 18px;
+   }
 
     .input_area input {
         flex: 1;
