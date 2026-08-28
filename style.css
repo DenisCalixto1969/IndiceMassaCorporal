@@ -94,12 +94,12 @@ textarea {
         gap: 6px;
     }
 
-    .input_area h2 {
-    width: 85px;
+   .input_area h2 {
+    width: 95px;
+    flex-shrink: 0;
     white-space: nowrap;
     font-size: 18px;
-   }
-
+}
     .input_area input {
         flex: 1;
         min-width: 0;
